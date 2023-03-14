@@ -14,6 +14,8 @@ jobs:
 
     - name: Install & display rust toolchain
       run: |
+        rustup toolchain install nightly
+        rustup default nightly
         rustup show
         rustup component add rust-src
 
