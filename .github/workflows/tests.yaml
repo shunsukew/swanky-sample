@@ -49,9 +49,9 @@ jobs:
 
     - name: Compile contracts
       run:
-        swanky contract compile --all
+        swanky contract compile --all -v
 
     - name: Test contracts
       run:
         swanky node start
-        swanky contract test --all
+        swanky contract test --all -v
