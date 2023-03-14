@@ -24,8 +24,8 @@
       "deployments": [],
       "language": "ink",
       "build": {
-        "timestamp": 1678771996425,
-        "artifactsPath": "artifacts/flipper/1678771996425"
+        "timestamp": 1678777018838,
+        "artifactsPath": "artifacts/flipper/1678777018838"
       }
     },
     "psp22": {
@@ -33,8 +33,8 @@
       "language": "ink",
       "deployments": [],
       "build": {
-        "timestamp": 1678772032581,
-        "artifactsPath": "artifacts/psp22/1678772032581"
+        "timestamp": 1678777020828,
+        "artifactsPath": "artifacts/psp22/1678777020828"
       }
     }
   },
