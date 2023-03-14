@@ -45,7 +45,7 @@ jobs:
         node-version: ${{ env.NODE_VER }}
 
     - name: Install swanky-cli
-      run: npm install -g @astar-network/swanky-cli
+      run: npm install && npm install -g @astar-network/swanky-cli
 
     - name: Compile contracts
       run:
